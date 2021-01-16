@@ -1,0 +1,67 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add react-native-tab-view
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@dudigital/react-native-zoomable-view": "^1.0.16",
+      "@react-native-community/masked-view": "^0.1.10",
+      "@react-native-community/picker": "^1.8.1",
+      "@react-native-community/slider": "^3.0.3",
+      "expo": "~40.0.0",
+      "expo-device": "^3.0.0",
+      "expo-image-picker": "^9.2.1",
+      "expo-notifications": "^0.8.2",
+      "expo-status-bar": "~1.0.3",
+      "install": "^0.13.0",
+      "npm": "^6.14.11",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-calendars": "^1.1129.0",
+      "react-native-circular-progress": "^1.3.6",
+      "react-native-dropdown-picker": "^3.7.8",
+      "react-native-elements": "^3.1.0",
+      "react-native-gesture-handler": "^1.9.0",
+      "react-native-progress": "^4.1.2",
+      "react-native-simple-dialogs": "^1.4.0",
+      "react-native-svg": "^12.1.0",
+      "react-native-vector-icons": "^7.1.0",
+      "react-native-web": "~0.13.12",
+      "victory-native": "^35.3.1"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
